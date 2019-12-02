@@ -1,0 +1,26 @@
+.portfolio-block.block-intro.parallax {
+  background-attachment: fixed;
+}
+
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.portfolio-navbar.gradient {
+}
+
+.transparent {
+  background-color: rgba(0,0,0,0);
+}
+
+#profile {
+  box-shadow: 5px 5px 5px grey;
+}
+
+.portfolio-block.call-to-action.border-bottom {
+}
+
+.welcome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+

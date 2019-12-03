@@ -34,7 +34,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: linear-gradient(120deg, rgb(255,65,108), rgb(255,75,43));
+  background: linear-gradient(120deg, rgb(75,108,183), rgb(24,40,72));
   animation: animate 25s linear infinite;
   bottom: -150px;
 }

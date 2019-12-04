@@ -36,7 +36,7 @@
   height: 20px;
   background: linear-gradient(120deg, rgb(75,108,183), rgb(24,40,72));
   animation: animate 25s linear infinite;
-  bottom: -150px;
+  bottom: -200px;
 }
 
 .circles li:nth-child(1) {

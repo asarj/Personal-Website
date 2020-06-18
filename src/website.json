@@ -3,17 +3,17 @@
         {
             "title": "Software Engineering",
             "faicon": "fas fa-laptop-code",
-            "description": "From the first \"Hello World\" to the latest hackathon project, I've always enjoyed building sophisticated applications through full-stack development. I primarily work with backend technologies, but I'm not afraid of getting deep with UI/UX."
+            "description": "From the first \"Hello World\" to the latest hackathon project, I've always enjoyed building sophisticated applications that solve real world problems through rigorous design, coding, and testing. I primarily work with backend technologies, but I'm not afraid of getting deep with UI/UX."
         },
         {
             "title": "Artificial Intelligence",
             "faicon": "fas fa-code-branch",
-            "description": "This field came to be one of my favorites because it combines the exciting possibilites of statistics with my love for programming. I've done work in both industry and academia with this topic. My current interests include machine learning, data science, and NLP"
+            "description": "This field came to be one of my favorites because it combines the exciting possibilites of statistics with my love for programming. I've done work in both industry and academia with this topic. My current interests include machine learning, data science, and NLP."
         },
         {
             "title": "Web Development",
             "faicon": "fas fa-code",
-            "description": "Building full-stack webapps has become a niche of mine and I'm always looking to grow my knowledge in this area. I'm currently learning Node.js and React.js to build upon my knowledge of front-end and back-end web technologies."
+            "description": "Building full-stack webapps has become a niche of mine and I'm always looking to grow my knowledge in this area. I'm currently learning React.js and Node.js to build upon my knowledge of front-end and back-end web technologies."
         }
     ],
     "projects": [
@@ -26,7 +26,7 @@
             ],
             "name": "PressPlay",
             "link": "https://github.com/asarj/PressPlay",
-            "summary": "An interactive video-streaming service that lets you share and interact with others",
+            "summary": "A MERN-stack interactive video-streaming service built for the modern social network",
             "image_url": "/Images/project-thumbnails/pressplay.jpg",
             "languages": [
                 "MongoDB", 
@@ -72,6 +72,33 @@
         },
         {
             "details": [
+                "A webapp that shows students and staff of Stony Brook University customized dining options for over 12 locations on campus",
+                "Scraped food data for over 300 campus menu options using Python and created API endpoints to access filtered data with Flask",
+                "Assisted with the compilation of a user's guide in HTML and CSS that showcases how to use the app"
+            ],
+            "name": "Chef Wolfie",
+            "link": "https://github.com/thefireblade/HH2019",
+            "summary": "A chatbot that helps students and faculty at Stony Brook University decide what to eat",
+            "image_url": "/Images/project-thumbnails/chefwolfie.png",
+            "languages": [
+                "Python", 
+                "Flask", 
+                "Vue.js", 
+                "MongoDB", 
+                "HTML", 
+                "CSS"
+            ],
+            "duration": "February 2019 - March 2019",
+            "tags":  [
+                "full-stack-dev",
+                "databases",
+                "web-dev",
+                "front-end-dev",
+                "back-end-dev"
+            ]
+        },
+        {
+            "details": [
                 "Developed a course project that allows instructors to dynamically generate webpages for their courses",
                 "Customized user interface functionality in JavaFX to include course events, office hours, and teaching assistant information",
                 "Integrated JSON and XML to save, load, and export information and HTML, CSS, and JavaScript to generate the webpages",
@@ -91,33 +118,6 @@
             "duration": "August 2018 - December 2018",
             "tags":  [
                 "full-stack-dev",
-                "web-dev",
-                "front-end-dev",
-                "back-end-dev"
-            ]
-        },
-        {
-            "details": [
-                "A webapp that shows students and staff of Stony Brook University customized dining options for over 12 locations on campus",
-                "Scraped food data for over 300 campus menu options using Python and created API endpoints to access filtered data with Flask",
-                "Assisted with the compilation of a user's guide in HTML and CSS that showcases how to use the app"
-            ],
-            "name": "Chef Wolfie",
-            "link": "https://github.com/thefireblade/HH2019",
-            "summary": "A chatbot that help students and faculty at Stony Brook University decide what to eat",
-            "image_url": "/Images/project-thumbnails/chefwolfie.png",
-            "languages": [
-                "Python", 
-                "Flask", 
-                "Vue.js", 
-                "MongoDB", 
-                "HTML", 
-                "CSS"
-            ],
-            "duration": "February 2019 - March 2019",
-            "tags":  [
-                "full-stack-dev",
-                "databases",
                 "web-dev",
                 "front-end-dev",
                 "back-end-dev"

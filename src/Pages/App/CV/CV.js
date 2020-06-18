@@ -99,9 +99,10 @@ function CV() {
 						</Col>
 						<Col md={6} style={{textAlign: "left"}}>
 							<h3>Stony Brook University</h3>
-							<p>Stony Brook, NY</p> 
-							<p><i>Bachelor of Science in Computer Science and Applied Math and Statistics</i></p>
+							<h5>Stony Brook, NY</h5> 
 							<p>August 2017 - Present (Expected May 2021)</p>
+							<p><i>Bachelor of Science in Computer Science and Applied Math and Statistics</i></p>
+							
 							<h6>Relevant Coursework</h6>
 							<ul>
 								<li>Data Structures - Spring 2018</li>
@@ -121,9 +122,10 @@ function CV() {
 							<br /> <br />
 
 							<h3>Bayside High School</h3>
-							<p>Bayside, NY</p> 
-							<p><i>Engineering CTE (Career & Technical Education)</i></p>
+							<h5>Bayside, NY</h5> 
 							<p>July 2013 - June 2017</p>
+							<p><i>Engineering CTE (Career & Technical Education)</i></p>
+							
 							<h6>Graduated in the top 5% of graduating class with an Advanced Regents Diploma</h6>
 						</Col>
 					</Row>

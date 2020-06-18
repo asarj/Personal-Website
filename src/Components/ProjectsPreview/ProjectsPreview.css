@@ -1,0 +1,88 @@
+
+.project-card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: contain; /*try scale-down or contain*/
+    align-items: center;
+}
+
+.lang-btn {
+    /* margin: -10px;
+    margin-left: 7px;
+    font-size: 10px;
+    width: 70px;
+    
+    margin-right: 0px;
+    margin-bottom: -7px; */
+    margin: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    height: 27px;
+    padding: 5px; 
+    background-color: rgb(26,43,76);
+    font-size: 11px;
+    border-radius: 50px;
+    text-align: center;
+    pointer-events: none;
+}
+
+#see-more-projects {
+    margin: 40px;
+    width: 210px;
+    height: 40px; 
+    background-image: linear-gradient(120deg, rgb(75,108,183), rgb(24,40,72)); 
+    background-color: rgb(63,102,188);
+    border-radius: 50px;
+}
+
+.visit-github {
+    margin: 0px;
+    width: 150px;
+    height: 40px; 
+    background-image: 
+    linear-gradient(120deg, rgb(75,108,183), rgb(24,40,72)); 
+    background-color: rgb(63,102,188);
+    border-radius: 50px;
+    transition: .5s ease;
+}
+
+.visit-github:hover {
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+.project-card-header {
+    position: auto;
+    height: 350px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.project-card-body {
+    height: 100px;
+}
+
+.project-card-subheading {
+    height: 200px;
+}
+
+.project-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.project-card:hover {box-shadow: 0 10px 12px 10px rgba(0, 0, 0, 0.2);}
+
+@media screen and (min-width: 991px)  {
+    .project-card { min-height: 500px; }
+}

@@ -1,0 +1,52 @@
+.company-ico {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(24,40,72);
+}
+
+.exp-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden; 
+}
+
+.exp-card-title {
+    height: 50px;
+}
+
+.exp-card:hover {box-shadow: 0 10px 12px 10px rgba(0, 0, 0, 0.2);}
+
+@media screen and (min-width: 991px)  {
+    .exp-card { min-height: 600px; }
+}
+
+@media screen and (min-width: 1000px)  {
+    .exp-card-title { height: 50px; }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1000px){
+    .exp-card-title { height: 80px; }
+}
+
+@media screen and (min-width: 500px) and (max-width: 991px){
+    .exp-card-title { height: 50px; }
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px){
+    .exp-card-title { height: 100px; }
+}
+
+/* @media screen and (min-width: 768px)  {
+    .card { min-height: 500px; max-height: 900px; }
+} */

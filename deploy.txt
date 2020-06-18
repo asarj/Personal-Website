@@ -1,0 +1,2 @@
+For re-deploying, visit this link
+https://create-react-app.dev/docs/deployment/#github-pages

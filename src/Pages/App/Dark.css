@@ -1,0 +1,748 @@
+/*************************** NavBar CSS ****************************/
+.navbar {
+    background-image: linear-gradient(120deg, #000000, #434343);
+}
+
+.navItem {
+    color: white;
+}
+
+/*************************** Footer CSS ****************************/
+#footer {
+  background-color: rgb(18,18,18);
+}
+
+.back-to-home {
+    background-image: linear-gradient(120deg, #000000, #434343);
+    border-color: #434343;
+    padding: 1px;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.ico {
+    background-image: linear-gradient(120deg, #000000, #434343);
+    border-color: #434343;
+    padding: 1px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 50%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.ico:hover {
+    opacity: 0.7;
+}
+
+#copyright {
+  color: rgb(148, 148, 148)
+}
+
+/************************* Animation CSS ***************************/
+
+/* Circles Animation (DEPRECATED) */
+.context {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    z-index: -100;
+  }
+  
+  .context h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    z-index: -100;
+  }
+  
+  .area {
+    background: #ff8888;
+    /*background: linear-gradient(to left, #000000, #000000);*/
+    width: 100%;
+    /* height: 100vh; */
+    z-index: -100;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+  }
+  
+  .circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(120deg, rgb(75,108,183), rgb(24,40,72));
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+  }
+  
+  .circles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+  }
+  
+  .circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+  }
+  
+  .circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+  }
+  
+  .circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+  }
+  
+  .circles li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+  }
+  
+  .circles li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+  }
+  
+  .circles li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+  }
+  
+  .circles li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+    }
+    100% {
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+    }
+  }
+
+
+/* Animation Divider */
+.animation-divider {
+    position: relative; 
+    z-index:100;
+    background-position: center;
+    /* background-size: inherit; */
+    width: 100wh;
+    background-color: #000000;
+    max-width: 100%;
+}
+
+.animation-container {
+    height: 200px;
+    font-size: 100%; 
+    z-index: 100;
+}
+
+.animation-text {
+    position: relative;
+    z-index:100; 
+    padding: 0px;
+    font-size: calc(1.2em + 1.4vw);
+    color: #ffffff;
+    height: 200px;
+    margin: 0px auto;
+}
+  
+
+/************************** Homepage CSS ***************************/
+html {
+  background-color: rgb(18,18,18);
+}
+
+body {
+  background-color: rgb(18,18,18);
+}
+/* Global */
+.section-header{
+    color: white;
+}
+.card-header {
+    background-color: #181818;
+}
+
+/* Welcome Screen */
+#home{
+    position: relative; 
+    z-index:100;
+    background-position: center;
+    width: 100wh;
+    height: 100vh;
+    background-color: #000000;
+    max-width: 100%;
+    padding: 55px;
+
+}
+
+.home-section {
+    position: relative; 
+    z-index:100;
+    background-position: center;
+    width: 100wh;
+    background-color: #434343;
+    max-width: 100%;
+}
+
+.home-container {
+    height: 200px;
+    font-size: 100%; 
+    z-index: 100;
+}
+
+.home-title-text {
+    position: relative;
+    z-index:100; 
+    padding: 30px;
+    background-color: rgba(255,255,255,0);
+    font-size: 75px;
+    color: white;
+    line-height: 80px;
+}
+
+.home-caption-text {
+    position: relative;
+    z-index:100; 
+    padding: 0px;
+    line-height: 42px;
+    font-size: 22px;
+    color: white;
+}
+
+.explore-about-me {
+    position: relative;
+    z-index:100; 
+    margin: 40px;
+    width: 110px;
+    height: 50px; 
+    background-image: linear-gradient(120deg, #000000, #434343);
+    background-color: #434343;
+    border-radius: 50px;
+}
+
+
+/* About Me */
+#about-me {
+    background-color: rgb(18,18,18);
+}
+
+#profile {
+    box-shadow: 5px 5px 5px rgb(65, 62, 62);
+    width: 100%;
+    position: relative;
+}
+
+#profile-caption {
+    font-size: 17px;
+    color: rgb(142, 142, 142);
+    width: 100%;
+}
+
+@media screen and (min-width: 768px)  {
+    .mobile-break { display: none; }
+}
+
+
+/* Interests */
+#interests {
+  background-color: rgb(18,18,18);
+}
+
+.faicon {
+    width: 70px;
+    height: 55px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: #434343;
+}
+
+.description-card {
+    box-shadow: 0 4px 8px 0 rgba(65, 62, 62, 0.8); /* this adds the "card" effect */
+    padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    color: rgb(142, 142, 142);
+}
+.description-card:hover {box-shadow: 0 10px 12px 10px rgba(65, 62, 62, 0.8);}
+
+@media screen and (min-width: 991px)  {
+    .description-card { min-height: 500px; }
+}
+
+
+/* Projects Preview */
+#projects-preview {
+  background-color: rgb(18,18,18);
+}
+
+.project-card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: contain; /*try scale-down or contain*/
+    align-items: center;
+}
+
+.lang-btn {
+    margin: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    height: 27px;
+    padding: 5px; 
+    background-color: #434343;
+    font-size: 11px;
+    border-radius: 50px;
+    border-color: black;
+    text-align: center;
+    pointer-events: none;
+}
+
+#see-more-projects {
+    margin: 40px;
+    width: 210px;
+    height: 40px; 
+    background-image: linear-gradient(120deg, #000000, #434343);
+    background-color: #434343;
+    border-radius: 50px;
+}
+
+.visit-github {
+    margin: 0px;
+    width: 150px;
+    height: 40px; 
+    background-image: linear-gradient(120deg, #000000, #434343);
+    background-color: #434343;
+    border-color: #434343;
+    border-radius: 50px;
+    transition: .5s ease;
+}
+
+.visit-github:hover {
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+.project-card-header {
+    position: auto;
+    height: 350px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.project-card-body {
+    height: 100px;
+}
+
+.project-card-subheading {
+    height: 200px;
+}
+
+.project-card {
+    box-shadow: 0 4px 8px 0 rgba(65, 62, 62, 0.8); /* this adds the "card" effect */
+    padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(148,148,148);
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.project-card:hover {box-shadow: 0 10px 12px 10px rgba(65, 62, 62, 0.8); border-color: black;}
+
+@media screen and (min-width: 991px)  {
+    .project-card { min-height: 500px; }
+}
+
+
+/* Experience */
+#experience {
+  background-color: rgb(18,18,18);
+}
+
+.company-ico {
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  color: #434343;
+}
+
+.exp-card {
+    box-shadow: 0 4px 8px 0 rgba(65, 62, 62, 0.8); /* this adds the "card" effect */
+    padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(148,148,148);
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.exp-card-title {
+  height: 50px;
+}
+
+.exp-card:hover {box-shadow: 0 10px 12px 10px rgba(65, 62, 62, 0.8); border-color: black;}
+
+@media screen and (min-width: 991px)  {
+  .exp-card { min-height: 600px; }
+}
+
+@media screen and (min-width: 1000px)  {
+  .exp-card-title { height: 50px; }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1000px){
+  .exp-card-title { height: 80px; }
+}
+
+@media screen and (min-width: 500px) and (max-width: 991px){
+  .exp-card-title { height: 50px; }
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px){
+  .exp-card-title { height: 100px; }
+}
+
+
+/* Contact Me */
+#contact {
+  background-image: linear-gradient(120deg, #000000, #434343);
+  overflow-x: hidden;
+}
+
+.like-what-you-saw {
+  font-size: calc(0.8em + 0.8vw);
+  color: white;
+  width: 22em;
+  margin: 0px;
+}
+
+.contact-me {
+  font-size: calc(0.8em + 0.8vw);
+  color: white;
+  width: 22em;
+  margin: 0px;
+}
+
+#emailBtn {
+  margin: 40px;
+  width: 210px;
+  height: 40px; 
+  background-image: linear-gradient(120deg, rgb(236,233,230), rgb(255,255,255));
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  border-radius: 50px;
+}
+
+#emailBtn:hover {
+  transition: .5s ease;
+  opacity: 0.3;
+}
+
+
+
+/********************** Projects Gallery CSS ***********************/
+/* NOTE: visit Projects.js to change the styling for the react-select toolbar */ 
+
+/* Projects Gallery Page Itself */
+.filter-div{
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex: no-wrap;
+  overflow: visible;
+  width: 100%;
+}
+
+.cat-label {
+  font-size: 20px;
+  color: white;
+}
+
+@media screen and (min-width: 991px)  {
+  .filter-div { display: flex; }
+  .cat-label { font-size: 20px; }
+}
+
+@media screen and (min-width: 1000px)  {
+  .filter-div { display: flex; }
+  .cat-label { font-size: 20px; }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1000px){
+  .filter-div { display: block; }
+  .cat-label { font-size: 15px; }
+}
+
+@media screen and (min-width: 500px) and (max-width: 991px){
+  .filter-div { display: block; }
+  .cat-label { font-size: 15px; }
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px){
+  .filter-div { display: block; }
+  
+}
+
+
+/* Projects Card */
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: contain; /*try scale-down or contain*/
+  align-items: center;
+}
+
+.visit {
+  margin: 0px;
+  width: 150px;
+  height: 40px; 
+  background-image: linear-gradient(120deg, #000000, #434343);
+  background-color: #434343;
+  border-radius: 50px;
+}
+
+.visit:hover {
+  transition: .5s ease;
+  opacity: 0.3;
+}
+
+
+.see-more {
+  margin: 0px;
+  width: 150px;
+  height: 40px; 
+  background-image: linear-gradient(120deg, #000000, #434343);
+  background-color: #434343;
+  border-radius: 50px;
+}
+
+.project-gallery-card-header {
+  position: auto;
+  height: 350px;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.project-gallery-card-body {
+  height: 100px;
+}
+
+.project-gallery-card-subheading {
+  height: 200px;
+}
+
+.project-gallery-card {
+  box-shadow: 0 4px 8px 0 rgba(65, 62, 62, 0.8); /* this adds the "card" effect */
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: rgb(142,142,142);
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.over {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-container {
+  position: relative;
+}
+
+.project-container:hover .project-gallery-card {
+  opacity: 0.3;
+  pointer-events: none;
+  background-color: rgb(115, 117, 122);
+  box-shadow: 0 10px 12px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-container:hover .over {
+  opacity: 1;
+}
+
+.project-gallery-card:hover {box-shadow: 0 10px 12px 10px rgba(65, 62, 62, 0.8); border-color: black;}
+
+@media screen and (min-width: 991px)  {
+  .project-gallery-card { min-height: 300px; }
+}
+
+.modal-backdrop.in { background: rgba(115, 117, 122, 0.5); } 
+.modal-backdrop { background-color:rgba(115, 117, 122, 0.5); transition: all .3s}
+div.fade.in.modal {
+  display:flex !important;
+}
+
+.modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modal-header {
+  background-color: rgba(115, 117, 122, 0.5);
+}
+
+.modal-body {
+  background-color: black;
+  color: rgb(142,142,142);
+}
+
+.list-group-item {
+  background-color: black;
+}
+
+.modal-footer {
+  background-color: #181818;
+}
+
+
+/***************************** CV CSS ******************************/
+#cv-page {
+  background-color: rgb(18,18,18);
+  color: rgb(140,140,140);
+}
+
+hr {
+  background-color: rgb(140,140,140);
+  color: rgb(140,140,140);
+}
+
+.avatar {
+  height: 45%;
+  width: 45%;
+  border-radius: 50%;
+}
+
+.no-margin {
+margin: 0px !important;
+padding: 0px !important;
+}
+
+.resume-btn {
+  margin: 0px;
+  width: 150px;
+  height: 40px; 
+  background-image: linear-gradient(120deg, #000000, #434343);
+  background-color: #434343;
+  border-radius: 50px;
+}
+
+.resume-btn:hover {
+  transition: .5s ease;
+  opacity: 0.3;
+}
+
+.progress-bar-theme {
+  background-color: rgb(18,18,18) !important;
+  color: white !important;
+}
+.contact-card {
+  background-color: rgb(24,24,24);
+  border-color: rgb(140,140,140);
+  color: rgb(140,140,140);
+}
+
+.contact-card-ico .contact-card-text {
+  color: rgb(140,140,140);
+  background-color: rgb(140,140,140);
+}

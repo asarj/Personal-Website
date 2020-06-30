@@ -1,0 +1,331 @@
+{
+    "interests": [
+        {
+            "title": "Software Engineering",
+            "faicon": "fas fa-laptop-code",
+            "description": "From the first \"Hello World\" to the latest hackathon project, I've always enjoyed building sophisticated applications that solve real world problems through rigorous design, coding, and testing. I primarily work with backend technologies, but I'm not afraid of getting deep with UI/UX."
+        },
+        {
+            "title": "Artificial Intelligence",
+            "faicon": "fas fa-code-branch",
+            "description": "This field came to be one of my favorites because it combines the exciting possibilites of statistics with my love for programming. I've done work in both industry and academia with this topic. My current interests include machine learning, data science, and NLP."
+        },
+        {
+            "title": "Web Development",
+            "faicon": "fas fa-code",
+            "description": "Building full-stack webapps has become a niche of mine and I'm always looking to grow my knowledge in this area. I'm currently learning React.js and Node.js to build upon my knowledge of front-end and back-end web technologies."
+        }
+    ],
+    "projects": [
+        {
+            "details": [
+                "Created a full-stack web application that emulates a video-streaming service",
+                "Developed several database schemas for thousands of users and video storage information using MongoDB",
+                "Stylized the look and feel of the user interface components using React.js",
+                "Implemented a secure login system, drag-and-drop video uploading, comments, and likes/dislikes for videos using Express.js"
+            ],
+            "name": "PressPlay",
+            "link": "https://github.com/asarj/PressPlay",
+            "summary": "A MERN-stack interactive video-streaming service built for the modern social network",
+            "image_url": "/Images/project-thumbnails/pressplay.jpg",
+            "languages": [
+                "MongoDB", 
+                "Express.js", 
+                "React.js", 
+                "Node.js"
+            ],
+            "duration": "May 2020 - June 2020",
+            "tags":  [
+                "full-stack-dev",
+                "databases",
+                "web-dev",
+                "front-end-dev",
+                "back-end-dev"
+            ]
+        },
+        {
+            "details": [
+                "Facilitated the development of a full-stack online stock-trading app for a course project",
+                "Designed the schema and relevant tables to store customer and stock data using MySQL",
+                "Customized user interface for different types of users using HTML, CSS, and JavaScript",
+                "Engineered backend operations that support over 40 stock and order transactions using Java"
+            ],
+            "name": "SAK's Trading Post",
+            "link": "https://github.com/asarj/SAKsTradingPost",
+            "summary": "A Java-based webapp that facilitates the operation of a stock trading system",
+            "image_url": "/Images/project-thumbnails/saks.jpg",
+            "languages": [
+                "Java", 
+                "MySQL", 
+                "HTML", 
+                "CSS", 
+                "JavaScript"
+            ],
+            "duration": "January 2019 - May 2019",
+            "tags":  [
+                "full-stack-dev",
+                "databases",
+                "web-dev",
+                "front-end-dev",
+                "back-end-dev"
+            ]
+        },
+        {
+            "details": [
+                "A webapp that shows students and staff of Stony Brook University customized dining options for over 12 locations on campus",
+                "Scraped food data for over 300 campus menu options using Python and created API endpoints to access filtered data with Flask",
+                "Assisted with the compilation of a user's guide in HTML and CSS that showcases how to use the app"
+            ],
+            "name": "Chef Wolfie",
+            "link": "https://github.com/thefireblade/HH2019",
+            "summary": "A chatbot that helps students and faculty at Stony Brook University decide what to eat",
+            "image_url": "/Images/project-thumbnails/chefwolfie.png",
+            "languages": [
+                "Python", 
+                "Flask", 
+                "Vue.js", 
+                "MongoDB", 
+                "HTML", 
+                "CSS"
+            ],
+            "duration": "February 2019 - March 2019",
+            "tags":  [
+                "full-stack-dev",
+                "databases",
+                "web-dev",
+                "front-end-dev",
+                "back-end-dev"
+            ]
+        },
+        {
+            "details": [
+                "Developed a course project that allows instructors to dynamically generate webpages for their courses",
+                "Customized user interface functionality in JavaFX to include course events, office hours, and teaching assistant information",
+                "Integrated JSON and XML to save, load, and export information and HTML, CSS, and JavaScript to generate the webpages",
+                "Wrote over 10,000 lines of code and adopted industry-standard design practices when implementing this application"
+            ],
+            "name": "Course Site Generator",
+            "link": "https://github.com/asarj/CourseSiteGenerator",
+            "summary": "A Java desktop application to help instructors curate and maintain their course websites",
+            "image_url": "/Images/project-thumbnails/CSGWebBanner.png",
+            "languages": [
+                "Java", 
+                "JavaFX", 
+                "HTML", 
+                "CSS", 
+                "JavaScript"
+            ],
+            "duration": "August 2018 - December 2018",
+            "tags":  [
+                "full-stack-dev",
+                "web-dev",
+                "front-end-dev",
+                "back-end-dev"
+            ]
+        },
+        {
+            "details": [
+                "Trained a linear regression model to predict stock trends based on closing stock prices and Google Trends scores using Pandas, NumPy, and Sci-Kit Learn",
+                "Optimized the model to consider predicted stock prices based on daily positive and negative company news in the past five years",
+                "Generated smart recommendations based on the trend-line of a stock's prediction model"
+            ],
+            "name": "Opus Financial Manager",
+            "link": "https://github.com/asarj/OpusFinancialManager",
+            "summary": "An ML-based webapp that predicts stocks based on Google Trends scores and closing stock prices",
+            "image_url": "/Images/project-thumbnails/opus_logo.png",
+            "languages": [
+                "Python", 
+                "Vue.js", 
+                "Node.js"
+            ],
+            "duration": "September 2018 - October 2018",
+            "tags":  [
+                "full-stack-dev",
+                "web-dev",
+                "front-end-dev",
+                "back-end-dev",
+                "machine-learning"
+            ]
+        },
+        {
+            "details": [
+                "Created a Facebook Messenger bot that tracks nutritional goals for Stony Brook University students and faculty",
+                "Utilized the Facebook Graph API to interact with the user while logging fitness data in a conversational manner",
+                "Won Best Nutrition Hack at SBU HackHealth 2018"
+            ],
+            "name": "NutriBuddy",
+            "link": "https://github.com/thefireblade/HackHealth",
+            "summary": "An award-winning chatbot to help members of Stony Brook University stay on top of their nutritional goals",
+            "image_url": "/Images/project-thumbnails/nutribuddy.jpg",
+            "languages": [
+                "Python", 
+                "SQLite3", 
+                "Flask"
+            ],
+            "duration": "February 2018 - March 2018",
+            "tags":  [
+                "full-stack-dev",
+                "databases",
+                "back-end-dev"
+            ]
+        },
+        {
+            "details": [
+                "Conceptualized, designed, and developed an Android app to complement an online library system for a data structures assignment",
+                "Shaped user interface and functionality in custom XML layouts and Android Studio GUIs",
+                "Created custom data structures which increased the efficiency of interactions between stored books"
+            ],
+            "name": "Jack's aMAzin' Textbook Rentals",
+            "link": "https://github.com/asarj/jackstextbookrentals",
+            "summary": "An Android app that utilizes custom data structures and ranking algorithms to manage a catalog of books",
+            "image_url": "/Images/project-thumbnails/jackstextbooks.jpg",
+            "languages": [
+                "Java", 
+                "Android Studio"
+            ],
+            "duration": "January 2018 - February 2018",
+            "tags":  [
+                "back-end-dev",
+                "app-dev"
+            ]
+        },
+        {
+            "details": [
+                "Led a team of seven members to create and develop the robot for a robotics competition",
+                "Programmed the robot operation of a colored-block collection mechanism",
+                "Integrated code to read in data values from an Xbox controller and output to the Arduino robot"
+            ],
+            "name": "C&C Milkshake Robot",
+            "link": "https://github.com/asarj/Cookies-and-Creme-Milkshake-Robot",
+            "summary": "Code for an RC robot designed for the 2017 SBU Robotics Team Internal Competition",
+            "image_url": "/Images/project-thumbnails/cookiesncreme.jpg",
+            "languages": [
+                "C++", 
+                "Arduino"
+            ],
+            "duration": "October 2017 - November 2017",
+            "tags":  [
+                "back-end-dev",
+                "robotics"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "summary": "",
+            "image_url": "Images/exp-thumbnails/ethos.png",
+            "details": [
+                "Built and trained several convolutional neural network classifiers on multiple image datasets to explore the correlation between model accuracy and mobile device performance",
+                "Implemented data augmentation algorithms and image normalization on data loading scripts, resulted in a 10% improvement in model training performance",
+                "Leveraged knowledge in Python, specifically in frameworks such as TensorFlow, OpenCV, and NumPy"
+            ],
+            "position": "Machine Learning Researcher",
+            "company": "Ethos Lab",
+            "location": "Stony Brook, NY",
+            "duration": "December 2019 - Present"
+        },
+        {
+            "summary": "I was a multi-semester Teaching Assistant for CSE 316: Fundamentals of Software Development, which focuses on event driven and web programming, software design, and the use of MERN-stack development in large scale apps.",
+            "image_url": "Images/exp-thumbnails/sbucs.jpg",
+            "details": [
+                "Supported over 220 students in CSE 316: Fundamentals of Software Development",
+                "Assisted students with software development techniques in scalable software design, event-driven and web programming, databases, and code maintainability",
+                "Facilitated student learning through weekly office hours and resolved additional concerns through discussion boards and emails"
+            ],
+            "position": "Teaching Assistant for Fundamentals of Software Development",
+            "company": "Stony Brook University, Department of Computer Science",
+            "location": "Stony Brook, NY",
+            "duration": "August 2019 - May 2020"
+        },
+        {
+            "summary": "",
+            "image_url": "",
+            "details": [
+                "Established security protocols that provide control over permissions using the Django framework in Python",
+                "Assisted with the development of the schema to store political data, such as state demographics and boundaries, using MySQL",
+                "Integrated the Django Rest Framework to establish routing endpoints for API calls to PoliTech's MySQL database"
+            ],
+            "position": "Software Engineering Research Assistant",
+            "company": "PoliTech",
+            "location": "Stony Brook, NY",
+            "duration": "January 2019 - December 2019"
+        },
+        {
+            "summary": "I spent my summer of 2019 working with the Electronic Trading Operations team and the Performance Engineering Team as a Data Science and DevOps intern.  My main internship project was a natural language processing API to help my team understand commonly asked questions by clients.",
+            "image_url": "Images/exp-thumbnails/bloomberg.jpg",
+            "details": [
+                "Developed a natural language processing heuristic that implements topic modeling on over six million tickets to determine commonly asked questions by clients, created an API to provide business insight made possible by the topic modeling",
+                "Streamlined ETO's workflow for executing backend cleanup scripts by building a web application that creates and executes these scripts based on user-specified parameters",
+                "Decreased the number of logout suppression errors by creating a scalable recommendation system that analyzes client activity and suggests a weekly schedule for monitoring sessions",
+                "Leveraged knowledge in Python, specifically frameworks such as Flask and Django, web development languages such as HTML, CSS, and JavaScript, and machine science libraries such as NLTK, Sci Kit-Learn, and pyLDAvis"
+            ],
+            "position": "Data Science and DevOps Intern",
+            "company": "Bloomberg LP, Electronic Trading Operations (ETO)",
+            "location": "New York, NY",
+            "duration": "May 2019 - August 2019"
+        },
+        {
+            "summary": "During my summer of 2018, I worked here as a Data Management Intern. My main tasks included writing scalable applications to correct and optimize their databases. This opportunity marked the first time I got to work with full-stack applications at the industry level.",
+            "image_url": "Images/exp-thumbnails/pencilinc.png",
+            "details": [
+                "Created an algorithm in Python that verified over 2000 commercial and residential addresses from old databases",
+                "Scraped NYC Department of Education websites for over 1200 public schools that had missing identification credentials used for school verification",
+                "Implemented an application that parses NYC public school data to fill in missing credentials for over 800 schools in a database"
+            ],
+            "position": "Data Management Intern",
+            "company": "PENCIL, Inc.",
+            "location": "New York, NY",
+            "duration": "July 2018 - August 2018"
+        },
+        {
+            "summary": "",
+            "details": [
+                "Managed a computing lab used by more than 300 residents on a weekly basis",
+                "Maintained hardware and software requirements for all computers",
+                "Assisted residents with technical issues and troubleshot software failures"
+            ],
+            "position": "Lab Consultant",
+            "company": "Stony Brook University, Office of Campus Residences",
+            "location": "New York, NY",
+            "duration": "January 2018 - Present"
+        }
+    ],
+    "skills": {
+        "languages": [
+            {"name": "Java", "level": "90"},
+            {"name": "Python", "level": "85"},
+            {"name": "MySQL", "level": "80"},
+            {"name": "C", "level": "50"}
+        ],
+        "web_dev": [
+            {"name": "HTML", "level": "80"},
+            {"name": "CSS", "level": "70"},
+            {"name": "JavaScript (ES6)", "level": "80"},
+            {"name": "React.js", "level": "85"},
+            {"name": "Node.js", "level": "70"},
+            {"name": "Express.js", "level": "65"}
+        ],
+        "data": [
+            {"name": "Pandas", "level": "80"},
+            {"name": "NumPy", "level": "80"},
+            {"name": "Sci-Kit Learn", "level": "75"},
+            {"name": "TensorFlow", "level": "70"},
+            {"name": "NLTK", "level": "60"}
+        ],
+        "tools_and_technologies": [
+            "Git",
+            "Trello",
+            "Docker"
+        ],
+        "frameworks": [
+            "Flask",
+            "Django",
+            "React.js",
+            "Express.js"
+        ],
+        "software": [
+            "Jupyter Notebook",
+            "Android Studio"
+        ]
+    }
+}

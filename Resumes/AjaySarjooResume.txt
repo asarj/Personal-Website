@@ -12,9 +12,16 @@ https://github.com/asarj/
 EDUCATION
 ---------------------------------------
 Stony Brook University -- Stony Brook, NY
-* Expected May 2021
-* Bachelor of Science in Computer Science and Applied Math and Statistics
-* Relevant Courses: Data Structures, Analysis of Algorithms, Systematic Program Design, Coding, and Testing, Machine Learning, Natural Language Processing, Systems Fundamentals I & II, Principles of Database Systems, Principles of Programming Languages
+* Expected May 2022
+* Master of Science in Computer Science, GPA: 3.5
+* Relevant Courses: Analysis of Algorithms, Visualization, Data Science Fundamentals (in progress), Foundations of Human-Computer Interaction (in progress), Fundamentals of Computer Networks (in progress)
+
+Stony Brook University -- Stony Brook, NY
+* August 2017 - May 2021
+* Bachelor of Science in Computer Science and Applied Math and Statistics, GPA: 3.54
+* Honors: Accelerated BS/MS Program in Computer Science, Cum Laude, Dean’s List
+* Relevant Courses: Data Structures, Analysis of Algorithms, Systematic Program Design, Coding, and Testing, Software
+Engineering, Machine Learning, Natural Language Processing, Principles of Programming Languages
 
 
 ---------------------------------------
@@ -22,10 +29,16 @@ EXPERIENCE
 ---------------------------------------
 Machine Learning Researcher -- Ethos Lab -- Stony Brook, NY -- December 2019 - Present
 * Explored the performance of deep learning models on mobile devices by constructing and training several convolutional neural network classifiers on multiple image datasets, achieved an average baseline testing accuracy of 88%
-* Improved testing accuracy by 10% through the application of concepts such as learning rate optimization and mixture of experts
-* Leveraged knowledge in Python libraries such as TensorFlow, OpenCV, and NumPy
+* Examined the strength of open-source video compression models, such as Facebook’s SlowFast, by writing several adversarial attack scripts based on concepts such as Fast Gradient Sign Attacks and Frame Saliency Attacks
+* Leveraged knowledge in Python libraries such as TensorFlow, GluonCV, OpenCV, PyTorch, and NumPy
 
-Data Science Intern -- Bloomberg LP -- New York, NY -- June 2020 - August 2020
+Software Engineer Intern -- Blackstone -- New York, NY -- May 2021 - August 2021
+* Led a firm-wide initiative to detect and report personally identifiable information (PII) across Blackstone’s internal datasets
+* Identified the best PII detection service to integrate into the final data pipeline architecture by evaluating several AWS and Microsoft services through proof-of-concept development for accuracy and scalability
+* Discovered over one million instances of PII across the datasets by architecting, building, and deploying a robust PII detection and reporting data pipeline that runs on a daily basis
+* Leveraged knowledge in Python, Apache Airflow, AWS Macie, AWS S3, AWS EC2, Terraform, Snowflake, SQL, and Tableau
+
+Machine Learning Intern -- Bloomberg LP -- New York, NY -- June 2020 - August 2020
 * Researched and developed a system to detect critical alarms in company servers up to several hours in advance by training and testing an anomaly detection model on over 200,000 system logs
 * Assessed the employee experience on over 28,000 hardware replacement tickets by creating a sentiment analysis API to determine user feedback, scaled the API to different problem types
 * Assisted in the return to office initiative for over 300 employees at Bloomberg's NYC headquarters by building and deploying an internal web application to visualize the results of an employee desk assignment algorithm
@@ -36,7 +49,7 @@ Teaching Assistant for Fundamentals of Software Development -- Stony Brook Unive
 * Helped students with techniques in software design, event-driven and web programming, databases, and code maintainability
 * Facilitated student learning through weekly office hours and resolved additional concerns through discussion boards and emails
 
-Data Science Intern -- Bloomberg LP -- New York, NY -- May 2019 - August 2019
+Machine Learning Intern -- Bloomberg LP -- New York, NY -- May 2019 - August 2019
 * Conceived a natural language processing heuristic that applies topic modeling on over six million tickets to determine commonly asked questions by clients, created an API to provide business insight made possible by the topic modeling
 * Streamlined the workflow for executing over 100 backend cleanup scripts by designing and deploying a web application that creates and executes these scripts based on user-specified parameters
 * Leveraged knowledge in Python frameworks such as Flask and Django, web development languages such as HTML, CSS, and JavaScript, and machine learning libraries such as Sci Kit-Learn and NLTK
@@ -47,8 +60,9 @@ PROJECTS
 ---------------------------------------
 PressPlay -- MongoDB, Express.js, React.js, Node.js -- May 2020 - Present
 * Created a full-stack web application that emulates a video-streaming service
-* Implemented drag-and-drop video uploading, comments, and likes/dislikes for videos using Express.js
-* Defined several database schemas for thousands of users and video storage information using MongoDB
+* Contrived core functionality, such as the login system, drag-and-drop video uploads, comments, and likes/dislikes, using Express.js 
+* Stored information for thousands of users and video metadata by developing several database schemas using MongoDB
+* Stylized the look and feel of over 15 user interface components using React.js and Ant Design
 
 SAK's Trading Post -- Java, MySQL, HTML, CSS, JavaScript -- January 2019 - May 2019
 * Facilitated the development of a full-stack online stock-trading app for a course project
@@ -84,19 +98,16 @@ Communications Subteam Member -- Stony Brook Robotics Team -- Stony Brook, NY --
 LANGUAGES AND TECHNOLOGIES
 ---------------------------------------
 LANGUAGES
-Java, Python, MySQL
+Java, Python, MySQL, MongoDB, C
 
 WEB DEVELOPMENT
-HTML/CSS, JavaScript, React.js, Node.js
+HTML/CSS, JavaScript (ES6), React.js, Node.js
 
 DATA
 Sci-Kit Learn, TensorFlow, Pandas, NumPy
 
 TOOLS AND TECHNOLOGIES
-Git, Docker
-
-FRAMEWORKS
-Flask, React.js
+Git, Docker, Linux, AWS, Apache Airflow
 
 SOFTWARE
-Jupyter Notebook, Linux, Bloomberg Terminal
+Jupyter Notebook, Bloomberg Terminal
